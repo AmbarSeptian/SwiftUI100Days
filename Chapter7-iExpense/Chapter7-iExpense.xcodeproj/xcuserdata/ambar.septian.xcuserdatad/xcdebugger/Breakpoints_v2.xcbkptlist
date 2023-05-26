@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2281F100-98BA-4CE4-9323-D1CDA1B571A2"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F84312EF-859D-4DD9-BAD9-A2A42C8B40D8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Chapter7-iExpense/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F84312EF-859D-4DD9-BAD9-A2A42C8B40D8 - 9d6b41dfcadab8f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Chapter7_iExpense.Expenses.init() -&gt; Chapter7_iExpense.Expenses"
+                  moduleName = "Chapter7-iExpense"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ambar.septian/Documents/SwiftUI100Days/Chapter7-iExpense/Chapter7-iExpense/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "F84312EF-859D-4DD9-BAD9-A2A42C8B40D8 - 9d6b41dfcadab8f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Chapter7_iExpense.Expenses.init() -&gt; Chapter7_iExpense.Expenses"
+                  moduleName = "Chapter7-iExpense"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ambar.septian/Documents/SwiftUI100Days/Chapter7-iExpense/Chapter7-iExpense/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "344">
+               </Location>
+               <Location
+                  uuid = "F84312EF-859D-4DD9-BAD9-A2A42C8B40D8 - 9d6b41dfcadab8f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Chapter7_iExpense.Expenses.init() -&gt; Chapter7_iExpense.Expenses"
+                  moduleName = "Chapter7-iExpense"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ambar.septian/Documents/SwiftUI100Days/Chapter7-iExpense/Chapter7-iExpense/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "692">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
