@@ -14,21 +14,18 @@ struct AddHabitView: View {
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
-        
-        NavigationView {
-            Form {
-                TextField("Name: ", text: $name)
-                TextField("Description: ", text: $description, axis: .vertical)
-                
-            }.toolbar {
-                Button {
-                    save()
-                } label: {
-                    Text("Save")
-                }
+        Form {
+            TextField("Name: ", text: $name)
+            TextField("Description: ", text: $description, axis: .vertical)
+            
+        }.toolbar {
+            Button {
+                save()
+            } label: {
+                Text("Save")
             }
-            .navigationTitle("Add Habit")
         }
+        .navigationTitle("Add Habit")
     }
     
     func save() {
@@ -40,6 +37,8 @@ struct AddHabitView: View {
 
 struct AddHabitView_Previews: PreviewProvider {
     static var previews: some View {
-        AddHabitView(viewModel: .init())
+        NavigationView {
+            AddHabitView(viewModel: .init())
+        }
     }
 }

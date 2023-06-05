@@ -26,34 +26,32 @@ struct DetailView: View {
     }
     
     var body: some View {
-        NavigationView {
-            VStack(spacing: 8) {
-                Text(habit.description)
-                    .font(.body)
-                Text("You have been stick to your habit for \(habit.counter) times")
-                    .font(.footnote)
-                if isHabitDone {
-                    Text("Great!, keep your habit ")
-                        .foregroundColor(.green)
-                        .fontWeight(.bold)
-                }
-                ZStack {
-                    CheckmarkView()
-                        .frame(width: 100, height: 100)
-                        .rotation3DEffect(.degrees(isHabitDone ? 0 : 90), axis: (x: 0, y: 1, z: 0))
-                    
-                    if !isHabitDone {
-                        DoneButton {
-                            markHabitIsDone()
-                        }
-                    }
-                    
-                }
-                .padding(.top, 80)
-                Spacer()
+        VStack(spacing: 8) {
+            Text(habit.description)
+                .font(.body)
+            Text("You have been stick to your habit for \(habit.counter) times")
+                .font(.footnote)
+            if isHabitDone {
+                Text("Great!, keep your habit ")
+                    .foregroundColor(.green)
+                    .fontWeight(.bold)
             }
-            .padding()
+            ZStack {
+                CheckmarkView()
+                    .frame(width: 100, height: 100)
+                    .rotation3DEffect(.degrees(isHabitDone ? 0 : 90), axis: (x: 0, y: 1, z: 0))
+                
+                if !isHabitDone {
+                    DoneButton {
+                        markHabitIsDone()
+                    }
+                }
+                
+            }
+            .padding(.top, 80)
+            Spacer()
         }
+        .padding()
         .navigationTitle(habit.name)
     }
     
@@ -83,7 +81,6 @@ struct DoneButton: View {
     
     var body: some View {
         ZStack {
-
             CircleProgressView(progress: progress)
                 .frame(width: 100, height: 100)
             Text("Done")
