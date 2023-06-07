@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93D104662A2E1BFC00D441C4 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D104652A2E1BFC00D441C4 /* Order.swift */; };
+		93D104682A2E1CCC00D441C4 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D104672A2E1CCC00D441C4 /* OrderView.swift */; };
+		93D1046A2A2E1EDE00D441C4 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D104692A2E1EDE00D441C4 /* AddressView.swift */; };
+		93D1046C2A2E1F6200D441C4 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1046B2A2E1F6200D441C4 /* CheckoutView.swift */; };
 		93D1FBAD2A2CD8F400D441C4 /* Chapter10_CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1FBAC2A2CD8F400D441C4 /* Chapter10_CupcakeCornerApp.swift */; };
-		93D1FBAF2A2CD8F400D441C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1FBAE2A2CD8F400D441C4 /* ContentView.swift */; };
 		93D1FBB12A2CD8F500D441C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D1FBB02A2CD8F500D441C4 /* Assets.xcassets */; };
 		93D1FBB42A2CD8F500D441C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D1FBB32A2CD8F500D441C4 /* Preview Assets.xcassets */; };
+		93D1FBBB2A2CDA5600D441C4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1FBBA2A2CDA5600D441C4 /* User.swift */; };
+		93D1FBBD2A2CDC4B00D441C4 /* iTunesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1FBBC2A2CDC4B00D441C4 /* iTunesResponse.swift */; };
+		93D1FBBF2A2CDCE000D441C4 /* DemoRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1FBBE2A2CDCE000D441C4 /* DemoRequestView.swift */; };
+		93D1FBC12A2CDE7C00D441C4 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1FBC02A2CDE7C00D441C4 /* AsyncImageView.swift */; };
+		93D1FBC32A2CE08A00D441C4 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1FBC22A2CE08A00D441C4 /* FormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93D104652A2E1BFC00D441C4 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		93D104672A2E1CCC00D441C4 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		93D104692A2E1EDE00D441C4 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		93D1046B2A2E1F6200D441C4 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		93D1FBA92A2CD8F400D441C4 /* Chapter10-CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter10-CupcakeCorner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D1FBAC2A2CD8F400D441C4 /* Chapter10_CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter10_CupcakeCornerApp.swift; sourceTree = "<group>"; };
-		93D1FBAE2A2CD8F400D441C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		93D1FBB02A2CD8F500D441C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93D1FBB32A2CD8F500D441C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93D1FBBA2A2CDA5600D441C4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		93D1FBBC2A2CDC4B00D441C4 /* iTunesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesResponse.swift; sourceTree = "<group>"; };
+		93D1FBBE2A2CDCE000D441C4 /* DemoRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoRequestView.swift; sourceTree = "<group>"; };
+		93D1FBC02A2CDE7C00D441C4 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		93D1FBC22A2CE08A00D441C4 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +68,15 @@
 			isa = PBXGroup;
 			children = (
 				93D1FBAC2A2CD8F400D441C4 /* Chapter10_CupcakeCornerApp.swift */,
-				93D1FBAE2A2CD8F400D441C4 /* ContentView.swift */,
+				93D1FBBA2A2CDA5600D441C4 /* User.swift */,
+				93D1FBBC2A2CDC4B00D441C4 /* iTunesResponse.swift */,
+				93D1FBBE2A2CDCE000D441C4 /* DemoRequestView.swift */,
+				93D1FBC02A2CDE7C00D441C4 /* AsyncImageView.swift */,
+				93D1FBC22A2CE08A00D441C4 /* FormView.swift */,
+				93D104652A2E1BFC00D441C4 /* Order.swift */,
+				93D104692A2E1EDE00D441C4 /* AddressView.swift */,
+				93D104672A2E1CCC00D441C4 /* OrderView.swift */,
+				93D1046B2A2E1F6200D441C4 /* CheckoutView.swift */,
 				93D1FBB02A2CD8F500D441C4 /* Assets.xcassets */,
 				93D1FBB22A2CD8F500D441C4 /* Preview Content */,
 			);
@@ -137,8 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93D1FBAF2A2CD8F400D441C4 /* ContentView.swift in Sources */,
+				93D1046C2A2E1F6200D441C4 /* CheckoutView.swift in Sources */,
 				93D1FBAD2A2CD8F400D441C4 /* Chapter10_CupcakeCornerApp.swift in Sources */,
+				93D104662A2E1BFC00D441C4 /* Order.swift in Sources */,
+				93D1FBC32A2CE08A00D441C4 /* FormView.swift in Sources */,
+				93D1FBBF2A2CDCE000D441C4 /* DemoRequestView.swift in Sources */,
+				93D1FBBD2A2CDC4B00D441C4 /* iTunesResponse.swift in Sources */,
+				93D104682A2E1CCC00D441C4 /* OrderView.swift in Sources */,
+				93D1FBBB2A2CDA5600D441C4 /* User.swift in Sources */,
+				93D1FBC12A2CDE7C00D441C4 /* AsyncImageView.swift in Sources */,
+				93D1046A2A2E1EDE00D441C4 /* AddressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
